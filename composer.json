@@ -1,0 +1,26 @@
+{
+  "name": "normphp-package/geetest",
+  "description": "geetest验证标准composer包",
+  "keywords": ["geetest"],
+  "homepage": "https://normphp.org/",
+  "authors": [
+    {
+      "name": "pizepei",
+      "email": "pizepei@pizepei.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "repositories": {
+  },
+  "autoload": {
+    "psr-4": {
+      "normphpPackage\\geetest\\": "src/"
+    }
+
+  }
+
+}
